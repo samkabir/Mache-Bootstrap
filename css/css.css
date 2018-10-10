@@ -1,0 +1,480 @@
+/*
+Author: Samiul Kabir
+*/
+
+/*
+	=========== Index =========
+	1. Global CSS
+	2. Header Section
+	3. Banner Section
+	4. About Us Section
+	5. Our Services Section
+	6. Quotes Section
+	7. Prices Section
+	8. Details Section
+	9. Community Section
+	10.Updates Section
+	11.Template Section
+	12.Sharework Section
+	13.Footer Section
+	============================
+*/
+
+/* === 1. Global CSS === */
+@import url(<link href="https://fonts.googleapis.com/css?family=Lato:100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">)
+*{
+	background-color: #f4f4f4;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+h1{
+	color: #ffffff;
+	font-weight: 300;
+	text-align: center;
+}
+h2{
+
+}
+h3{
+	color: black;
+}
+h4{
+
+}
+h5{
+
+}
+h6{
+
+}
+p{
+	color: #ffffff;
+}
+a{
+	text-decoration: none;
+}
+
+
+/* === 2. Header Section Start === */
+
+.navbar-dark .navbar-nav .nav-link{
+	color: #ffffff;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #ed145b;
+	transition: 0.5s;
+}
+
+/* === 2. Header Section End === */
+
+/* === 3. Banner Section Start === */
+.banner-section{
+	background: url(../img/hero01.png) no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}
+.banner-btn{
+	text-decoration: none;
+    color: #ffffff;
+    border-radius: 22px;
+    background: #ed145b;
+    padding: 9px 39px;
+    font-size: 11px;
+    border: 0px;
+}
+.banner-btn:hover{
+	cursor: pointer;
+	background: #545152;
+	transition: 0.5s;
+}
+.line-bottom{
+    width: 22%;
+    height: 2px;
+    display: block;
+    margin: 20px auto;
+    background: #ed145b;
+}
+.banner-bot-pic{
+	background: url(../img/hero02.png)no-repeat;
+	background-size: cover;
+	padding: 15px;
+	width: 100%;
+}
+.banner{
+	margin: 100px;
+}
+.banner h1{
+	color: #ffffff;
+}
+.banner p{
+	color: #ffffff;
+}
+/* === 3. Banner Section End === */
+
+/* === 4. About Us Section Starts === */
+.banner-bot-pic{
+	background-color: #f4f4f4;
+}
+.about-section{
+	background-color: #f4f4f4;
+	height: 425px;
+}
+.about-right{
+	color: #7e7e7e;
+}
+.bottom-line{
+	width: 38%;
+    height: 2px;
+    display: block;
+    margin: 16px 0px;
+    background: #ed145b;
+}
+h1{
+	color: #7e7e7e;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+p{ 
+   	color: #7e7e7e;
+    line-height: 18px;
+    font-size: 12px;
+}
+.fa-chevron-circle-right{
+	padding: 10px;
+}
+.about-video{
+	color: #ed145b;
+}
+.about-img{
+	position: relative;
+}
+/* === 4. About Us Section Ends === */
+
+/* === 5. Our Services Section Starts === */
+.section-services h2{
+ 	color: #5a5a5a;
+ 	font-weight: 300;
+}
+.section-services p{
+	color: #8d8d8d;
+	line-height: 25px;
+}
+.services-contents{
+	text-align: center;
+}
+.service-line{
+	width: 15%;
+    height: 2px;
+    display: block;
+    margin: 24px auto;
+    background: #ed145b;
+}
+.section-services h5{
+	font-size: 15px;
+	color: #ed145b;
+	padding-top: 15px;
+}
+/* === 5. Our Services Section Ends === */
+
+/* ===6. Quotes Section Starts === */
+.section-quotes{
+	background:url(../img/Quotes.png)no-repeat;
+	background-size: cover;
+	height: 406px;
+    padding: 57px;
+}
+.quotes-title h5{
+	color: #ffffff;
+	font-weight: 100;
+	font-size: 22px;
+    text-align: center;
+}
+.fas{
+	color: #ed145b;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    display: block;
+    padding: 23px;
+}
+/* ===6. Quotes Section Ends === */
+
+/* ===7. Prices Section Starts === */
+.section-prices{
+	background-color: #f4f4f4;
+	text-align: center;
+}
+.prices-line{
+	width: 15%;
+    height: 2px;
+    display: block;
+    margin: 24px auto;
+    background: #ed145b;
+}
+.section-prices h4{
+	color: #a7a7a7;
+	font-size: 32px;
+    font-weight: 300;
+}
+.section-prices p{
+	color: #a7a7a7;
+	line-height: 27px;
+}
+.price-top{
+	background-color: #5a5a5a;
+    height: 144px;
+}
+.price-top-pink{
+	background-color: #ed145b;
+    height: 144px;
+}
+.prices-cards{
+	margin: 55px 0px;
+}
+.price-bottom{
+	background-color: #ffffff;
+}
+span{
+	font-size: 18px;
+    padding-right: 3px;
+}
+.section-prices h3{
+	color: #f4f4f4;
+    padding: 20px;
+    font-size: 38px;
+}
+.section-prices h5{
+	color: #f4f4f4;
+    font-size: 16px;
+}
+.section-prices h6{
+	line-height: 32px;
+    font-size: 14px;
+    color: #acacac;
+}
+.section-prices .fas{
+
+}
+.typo{
+	background: #f4f4f4;
+    color: #5a5a5a;
+    font-weight: 700;
+    padding: 12px 35px;
+    border-radius: 25px;
+    margin-top: -14px;
+    border: 0px;
+}
+.bot-btn{
+	background: #ed145b;
+    border-radius: 25px;
+    padding: 7px 39px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    border: 0px;
+    margin: 25px;
+}
+.bot-btn:hover {
+	cursor: pointer;
+	background: #545152;
+	transition: 0.5s;
+}
+/* ===7. Prices Section Ends === */
+
+/* ===8. Details Section Starts === */
+.section-detail{
+	background-color: #ffffff;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+.img-addinfo{
+	position: absolute;
+}
+.addinfo-subsection{
+	position: relative;
+	margin: 25px 0px;
+}
+.section-detail h4{
+	color: #ed145b;
+    font-size: 20px;
+}
+.section-detail p{
+	font-size: 12px;
+    line-height: 24px;
+}
+/* ===8. Details Section Ends === */
+
+/* ===9. Community Section Starts === */
+.section-community{
+	background-color: #ed145b;
+	padding: 60px 0px;
+}
+.community-btn{
+	cursor: pointer;
+    border-radius: 25px;
+    border: 0px;
+    background-color: #ffffff;
+    color: #ed145b;
+	border: 0 px;  
+    font-weight: 900;
+    padding: 13px 49px;
+    transition: 0.5s all hard;
+}
+.community-btn:hover {
+	background-color: black;
+	transition: 0.5s;
+}
+.section-community h2{
+	color: #ffffff;
+    font-size: 31px;
+}
+/* ===9. Community Section Ends === */
+
+/* ===10.Updates Section Starts === */
+
+.section-updates{
+	background-color: #ffffff;
+	text-align: center;
+}
+.updates-line{
+	width: 15%;
+    height: 2px;
+    display: block;
+    margin: 24px auto;
+    background: #ed145b;
+}
+.section-updates h2{
+	font-size: 32px;
+    font-weight: 300;
+}
+.section-updates p{
+	line-height:26px;
+}
+.updates-card{
+	background-color: #f4f4f4;
+}
+.updates-img:hover {
+	transition: 0.5s;
+	background: url(../img/updateshover.png);
+	opacity: 0.5;
+	cursor: pointer;
+}
+.updates-contents{
+	margin: 53px 0px;
+}
+.updates-card h4{
+	font-size: 17px;
+    color: #444040;
+    font-weight: 500;
+    text-align: left;
+    margin: 20px;
+}
+.updates-card p{
+	line-height: 23px;
+    text-align: left;
+    margin: 20px 20px;
+    padding-bottom: 25px;
+}
+.arrow-down:hover {
+	cursor: pointer;
+	color: #545152;
+	transition: 0.5s;
+}
+.header06{
+	margin: 0px 0px -25px;
+    color: #ed145b;
+}
+/* ===10.Updates Section Ends === */
+
+/* ===11.Template Section Starts === */
+
+.section-template{
+	background: url(../img/additionalinfo02.png)no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.template-line{
+	width: 15%;
+    height: 2px;
+    display: block;
+    margin: 24px auto;
+    background: #ed145b;
+}
+.template-btn{
+	background: #ed145b;
+    border-radius: 25px;
+    padding: 6px 26px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    border: 0px;
+    margin: 26px;
+}
+.template-btn:hover {
+	cursor: pointer;
+	transition: 0.5s;
+	background-color: #545152;
+}
+.section-template h2{
+	color: #ffffff;
+    font-size: 40px;
+    font-weight: 300;
+}
+.section-template p{
+	color: #7e7e7e;
+    line-height: 33px;
+    font-weight: 600;
+    font-size: 13px;
+}
+/* ===11.Template Section Ends === */
+
+/* ===12.Sharework Section Starts === */
+
+.section-sharework{
+	background-color: #f4f4f4;
+}
+.section-sharework h2{
+	font-size: 30px;
+    font-weight: 500;
+}
+.sharework-btn{
+	border-radius: 25px;
+    padding: 10px 34px;
+    color: white;
+    background-color: #ed145b;
+    border: 0px;
+    margin-top: 20px;
+    margin-left: 100px
+}
+.section-sharework p{
+	font-size: 18px;
+    line-height: 28px;
+}
+.sharework-line{
+	width: 35%;
+    height: 2px;
+    display: block;
+    background: #ed145b;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.sharework-btn:hover {
+	transition: 0.5s;
+	background-color: #545152;
+	cursor: pointer;
+}
+/* ===12.Sharework Section Ends === */
+
+/* ===13.Footer Section Starts === */
+.footer{
+	background-color: #2b2b2b;
+}
+.footer p{
+	color: #ffffff;
+}
+.dot{
+	color: #ed145b;
+}
+/* ===13.Footer Section Ends === */
